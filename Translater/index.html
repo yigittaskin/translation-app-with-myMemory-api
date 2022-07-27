@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <title>Translate</title>
+</head>
+<body>
+
+    <h2 class="text-center mt-3 font-weight-bold" style="color:rgb(34, 130, 209);">Translate App</h2>
+
+    <div class="container-fluid translateBox d-flex">
+        <div class="container select-lang d-flex justify-content-between">
+            <div class="left">
+                <select id="from-lang"></select>
+                <i id="left" class="fa-solid fa-volume-high ml-2 icons"></i>
+                <i id="left" class="fa-solid fa-copy icons"></i>
+            </div>
+
+            <i id="changeLang" class="fa-solid fa-arrow-right-arrow-left "></i>
+
+            <div class="right">
+                <i id="right" class="fa-solid fa-volume-high icons"></i>
+                <i id="right" class="fa-solid fa-copy mr-3 mt-2 icons"></i>
+                <select class="float-right" id="to-lang"></select>
+            </div>
+        </div>
+
+        <div class="container text-controls d-flex justify-content-between">
+            <textarea id="from-text" class="from-text" placeholder="Metin gir."></textarea>
+            <textarea id="to-text" class="to-text" placeholder="Çeviri" disabled></textarea>
+        </div>
+
+        <div class="container">
+            <button class="btnTranslate w-100">
+                Çevir
+            </button>
+        </div>
+    </div>
+
+    <footer>
+        <p class="text-center mt-5">Developer by <a href="https://github.com/yigittaskin">Yiğit Taşkın</a></p>
+        <div class="text-center">
+            <a target="_blank" href="https://www.linkedin.com/in/taskinygt/">LinkedIn</a>
+            <a target="_blank" href="http://twitter.com/taskinYGT">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
