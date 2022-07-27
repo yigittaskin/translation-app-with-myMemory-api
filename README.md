@@ -1,6 +1,6 @@
 # translation-app-with-myMemory-api
 
-*translation application*
+*translation application* :
 I have developed a dynamic translation application that can translate in all languages, can be voiced, and has many other features.
 
 technologies used in this project:
